@@ -1,6 +1,7 @@
 🌱 Nursery Website
 
-A responsive and user-friendly Nursery Website designed to showcase plants, gardening products, and nursery services. This project is ideal for plant nurseries, garden centers, or landscaping businesses looking for an online presence.
+A responsive and user-friendly Nursery Website designed to showcase plants, gardening products, and nursery services. 
+This project is ideal for plant nurseries, garden centers, or landscaping businesses looking for an online presence.
 
 🌼 Features
 
