@@ -18,4 +18,4 @@ CSS3 – Styling and layout
 JavaScript – Interactivity
 
 ScreenShot
-link (<img width="1920" height="1080" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/49e1a740-8d59-49bd-8cae-7bc8afad6b49" />)
+(<img width="1920" height="1080" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/49e1a740-8d59-49bd-8cae-7bc8afad6b49" />)
