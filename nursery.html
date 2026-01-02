@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LittleLeap Nursery</title>
+    <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top creative-navbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="https://via.placeholder.com/50x50?text=🌿" alt="" class="navbar-logo me-2">
+                <span class="brand-text">🌿LittleLeap Nursery</span>
+            </a>
+            <button class="navbar-toggler creative-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link creative-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link creative-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link creative-link" href="#plants">Plants</a></li>
+                    <li class="nav-item"><a class="nav-link creative-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero bg-success text-white text-center py-5">
+        <div class="container">
+            <h1>Welcome to LittleLeap Nursery</h1>
+            <p>Your source for beautiful plants and expert gardening advice.</p>
+            <a href="#plants" class="btn btn-light">Explore Plants</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We specialize in a wide variety of plants, from succulents to trees. Our nursery has been serving the community for over 20 years with quality and care.</p>
+        </div>
+    </section>
+
+    <!-- Plants Gallery -->
+    <section id="plants" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5">Our Plants</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card plant-card">
+                        <img src="images/Succulent Garden.jpg" class="card-img-top" alt="Succulent Garden">
+                        <div class="card-body">
+                            <h5 class="card-title">Succulent Garden</h5>
+                            <p class="card-text">Low-maintenance plants perfect for indoors. Add a touch of green to your space.</p>
+                            <a href="https://en.wikipedia.org/wiki/National_Cactus_and_Succulent_Botanical_Garden_and_Research_Centre" 
+                            class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card plant-card">
+                        <img src="images/Rose Bushes.jpeg" class="card-img-top" alt="Rose Bushes">
+                        <div class="card-body">
+                            <h5 class="card-title">Rose Bushes</h5>
+                            <p class="card-text">Beautiful flowering plants for your garden. Symbolize love and beauty.</p>
+                            <a href="https://simple.wikipedia.org/wiki/Rose" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card plant-card">
+                        <img src="images/Herb Collection.jpeg" class="card-img-top" alt="Herb Collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Herb Collection</h5>
+                            <p class="card-text">Fresh herbs for cooking and more. Grow your own culinary delights.</p>
+                            <a href="https://en.wikipedia.org/wiki/Herb" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card plant-card">
+                        <img src="images/Orchid Collection.jpeg" class="card-img-top" alt="Orchid Collection">
+                        <div class="card-body">
+                            <h5 class="card-title">Orchid Collection</h5>
+                            <p class="card-text">Elegant orchids that bring exotic beauty to any room.</p>
+                            <a href="https://en.wikipedia.org/wiki/Orchid" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card plant-card">
+                        <img src="images/Fern Varieties.jpeg" class="card-img-top" alt="Fern Varieties">
+                        <div class="card-body">
+                            <h5 class="card-title">Fern Varieties</h5>
+                            <p class="card-text">Lush ferns that add a tropical feel to your indoor spaces.</p>
+                            <a href="https://en.wikipedia.org/wiki/Fern" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card plant-card">
+                        <img src="images/Bonsai Trees.jpeg" class="card-img-top" alt="Bonsai Trees">
+                        <div class="card-body">
+                            <h5 class="card-title">Bonsai Trees</h5>
+                            <p class="card-text">Miniature trees that bring tranquility and art to your home.</p>
+                            <a href="https://en.wikipedia.org/wiki/Bonsai" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- About Section -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5 class="footer-title">🌿 LittleLeap Nursery</h5>
+                        <p class="footer-text">Your trusted source for beautiful plants and expert gardening advice. We've been nurturing green spaces for over 20 years.</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5 class="footer-title">Quick Links</h5>
+                        <ul class="footer-links">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#plants">Our Plants</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#">Care Tips</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Contact Info -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5 class="footer-title">Contact Info</h5>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-map-marker-alt"></i> 123 Green Street, Plant City, PC 12345</li>
+                            <li><i class="fas fa-phone"></i> (555) 123-4567</li>
+                            <li><i class="fas fa-envelope"></i> info@littleleapnursery.com</li>
+                            <li><i class="fas fa-clock"></i> Mon-Fri: 9AM-6PM, Sat: 8AM-4PM</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Newsletter Signup -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="footer-section">
+                        <h5 class="footer-title">Stay Connected</h5>
+                        <p class="footer-text">Subscribe to our newsletter for the latest plant tips and exclusive offers.</p>
+                        <form class="newsletter-form">
+                            <div class="input-group">
+                                <input type="email" class="form-control newsletter-input" placeholder="Your email address" required>
+                                <button class="btn newsletter-btn" type="submit">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Bottom Bar -->
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <p class="mb-0">&copy; 2026 LittleLeap Nursery. All rights reserved.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <a href="#" class="footer-link">Privacy Policy</a> | <a href="#" class="footer-link">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
